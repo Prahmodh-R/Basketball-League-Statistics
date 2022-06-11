@@ -2,7 +2,7 @@ import matplotlib.pyplot as pl
 #import chart
 import random
 import mysql.connector as sb
-con=sb.connect (host='localhost' ,user='root', passwd='Assami1',database='sun')
+con=sb.connect (host='localhost' ,user='root', passwd='aproj70',database='sun')
 cur=con.cursor()
 def add():
     c=input("Enter the  Team to which you want to add players: ")
