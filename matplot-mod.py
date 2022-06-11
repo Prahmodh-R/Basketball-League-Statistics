@@ -1,6 +1,6 @@
 import matplotlib.pyplot as pl
 import mysql.connector as sb
-con=sb.connect (host='localhost' ,user='root', passwd='Assami1',database='sun')
+con=sb.connect (host='localhost' ,user='root', passwd='aproj70',database='sun')
 cur=con.cursor()
 def linech():
  cur.execute('select team,sum(tot_points),sum(assists) from players group by team')
